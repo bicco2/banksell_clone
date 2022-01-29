@@ -1,0 +1,78 @@
+.divStyle{
+    width:400px; 
+    height: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid black;
+}
+
+.centerCss{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu1{
+    float:right;
+    width:150px; 
+    height:40px;
+}   
+
+.analyze{
+    width: 50px; 
+    height: 30px; 
+    line-height: 30px;
+    background-color: rgb(233, 229, 229);
+    border-radius: 5px 5px;
+    font-size: 13px;
+    float:right; 
+    margin-right: 20px;
+}
+
+.cashFont{
+    font-size: x-large; 
+    margin-left: 10px; 
+    font-weight: bold;
+}
+
+.adCss{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px 15px;
+    width: 350px; 
+}
+
+.total_account2{
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgb(196, 194, 194); 
+    height:40px;
+    width:370px;
+    margin-bottom: 20px;
+}
+
+.account_style{
+    margin-left: 20px; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    
+}
+.account_style2{
+    margin-left: 20px; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    
+}
+
+.logo_style{
+    width: 30px;
+     height: 30px; 
+    float:left;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+.bank_balance{
+    float: right;
+     margin-right: 30px;
+}
