@@ -12,7 +12,8 @@ let accountDB =db.collection('account');
 
 accountDB.get().then((결과)=>{
     결과.forEach((doc)=>{
-        var temp = ` <div onclick="location.href='bank1.html'">
+        //<div onclick="location.href='bankInfo.html'">
+        var temp = ` <div id = "${doc.id}" onclick="location.href='bankInfo.html'">
                     <img src="img/bankImg.png" class="logo_style">
                         <span>${doc.data().계좌이름} </span>
                         <span class="bank_balance">${(doc.data().잔액).toLocaleString('ko-KR')}원</span>
@@ -33,7 +34,7 @@ accountDB.get().then((결과)=>{
 
 });
 
-db.collection('user').get()
+db.collection('user').get() //사용자이름 출력 코드 
     .then(doc => {
         doc.forEach( item=>{  //item이 저장한 데이터 객체 원본입니다.
             hostJs.innerText = item.data().name;
