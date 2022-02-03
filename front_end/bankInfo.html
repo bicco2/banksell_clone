@@ -9,13 +9,46 @@
 </head>
 <body>
 
-    <div class="divStyle">
+    <div class="divStyle" style ="text-align: center;">
+        
         <div id="Menu1" style="height:60px">
             <img src="img/logo.png" width="200px">
             <img src="img/headMenu.png" class="menu1">
         </div>
-        
+
+        <div class="enroll_form">
+            <input type="text" id="view_title" placeholder="은행 이름" style="margin-bottom:10px;"><br>
+            <button id="view_send" style="margin-bottom:20px">조회</button>
+        </div>
+
+        <div id="acc_detail_list"></div>
+
+
     </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-storage.js"></script>
+      
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+  
+    </script>
+
+
+  <script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyBf4JFNJ6UovO51DeCIUL9TkHpf0l3ouVQ",
+        authDomain: "banksell-4e27b.firebaseapp.com",
+        databaseURL: "https://banksell-4e27b-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "banksell-4e27b",
+        storageBucket: "banksell-4e27b.appspot.com",
+        messagingSenderId: "781310992373",
+        appId: "1:781310992373:web:6f0869214c3948b72a0abc"
+    };
+</script>
+
 
     <script src = "js/bankInfomation.js"></script>
 </body>

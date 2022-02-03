@@ -21,8 +21,9 @@ accountDB.get().then((결과)=>{
                     </div>`;
         $('.account_style').append(temp);
         totalMoney += doc.data().잔액;
-    });
 
+    });
+ 
     var totalTemp = ` <span style="margin-left: 10px; font-size: 14px;">
             <font color="gray"> 입출금</span>
     <span id="total_DNW" style="float: right; margin-right: 10px">
@@ -43,3 +44,5 @@ db.collection('user').get() //사용자이름 출력 코드
     .catch(err => {
         console.log('Error getting document', err);
 });
+
+
